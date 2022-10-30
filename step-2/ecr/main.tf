@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-devopshardinit"
+    bucket = "hui-devopshardinit"
     key    = "ecr-terraform.tfstate"
     region = "us-east-1"
   }
